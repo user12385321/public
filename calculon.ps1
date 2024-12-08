@@ -1,4 +1,3 @@
-## reg save HKLM\sam %temp%\sam
 cmdkey /list | Out-File -FilePath .\creds
 Start-Process ms-calculator:
 tasklist | Out-File -FilePath .\tasklist
